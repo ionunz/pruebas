@@ -1,0 +1,29 @@
+*{ 
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden{
+    display: none;
+}
+.showroom{
+    min-width: 500px;
+    min-height: 500px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li img{
+    height: 100px;
+    padding: 2px;
+}
